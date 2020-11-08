@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[application opened]]>
+    </line>
+    <line>
+      <![CDATA[login completed]]>
+    </line>
+    <line>
+      <![CDATA[logout completed]]>
+    </line>
+    <line>
+      <![CDATA[application closed]]>
+    </line>
+    <line>
+      <![CDATA[application opened]]>
+    </line>
+    <line>
+      <![CDATA[login completed]]>
+    </line>
+    <line>
+      <![CDATA[entered into frames]]>
+    </line>
+    <line>
+      <![CDATA[logout completed]]>
+    </line>
+    <line>
+      <![CDATA[application closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="37972" started-at="2020-11-08T11:12:42Z" finished-at="2020-11-08T11:13:20Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="37972" started-at="2020-11-08T11:12:42Z" finished-at="2020-11-08T11:13:20Z">
+      <class name="com.hrms.testscripts.TC001">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:com.hrms.testscripts.TC001@3d0f8e03]" name="tc001" duration-ms="10190" started-at="2020-11-08T16:42:42Z" finished-at="2020-11-08T16:42:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[application opened]]>
+            </line>
+            <line>
+              <![CDATA[login completed]]>
+            </line>
+            <line>
+              <![CDATA[logout completed]]>
+            </line>
+            <line>
+              <![CDATA[application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+      </class> <!-- com.hrms.testscripts.TC001 -->
+      <class name="com.hrms.testscripts.TC002">
+        <test-method status="PASS" signature="tc002()[pri:0, instance:com.hrms.testscripts.TC002@57f23557]" name="tc002" duration-ms="27766" started-at="2020-11-08T16:42:52Z" finished-at="2020-11-08T16:43:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[application opened]]>
+            </line>
+            <line>
+              <![CDATA[login completed]]>
+            </line>
+            <line>
+              <![CDATA[entered into frames]]>
+            </line>
+            <line>
+              <![CDATA[logout completed]]>
+            </line>
+            <line>
+              <![CDATA[application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+      </class> <!-- com.hrms.testscripts.TC002 -->
+      <class name="com.hrms.testscripts.Tc003">
+        <test-method status="PASS" signature="samaple()[pri:0, instance:com.hrms.testscripts.Tc003@61ca2dfa]" name="samaple" duration-ms="0" started-at="2020-11-08T16:43:20Z" finished-at="2020-11-08T16:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samaple -->
+      </class> <!-- com.hrms.testscripts.Tc003 -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
